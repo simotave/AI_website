@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.header{
+  justify-content: space-between;
+  background-color: ghostwhite;
+  height: auto;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Assicurati che l'header sia sopra gli altri elementi */
+}
+
+.titolo{
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+.barra{
+  font-size: 20px;
+  font-style: italic;
+}
+.container{
+  background-color: whitesmoke;
+}
+.elenco{
+  margin: 50px;
+}
+.location{
+  margin-left: 80%;
+}
+
+.elenco-cliccabile {
+  list-style: none;
+  padding: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.elemento-cliccabile {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: black;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.elemento-cliccabile:hover {
+  background-color: transparent; /* Cambia il colore di sfondo al passaggio del mouse */
+}
+
+.introduction{
+  margin: 50px;
+}
+
+.conclusion{
+  margin: 50px;
+}
+
+.prompt{
+  font-family: italic;
+  background-color: lightgray;
+  padding: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 10px; /* Angoli stondati */
+}
+
+.table{
+  margin: 30px;
+}
